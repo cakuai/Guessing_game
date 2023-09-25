@@ -1,11 +1,6 @@
-
-
 let input = prompt("Have a Guess! (Type 'q' to quit) ")
 let correctAns = Math.floor(Math.random()*10)+1
 let ct = 1;
-
-
-
 
 while (input != correctAns) {
 
@@ -32,3 +27,4 @@ if (input=="q") {
 console.log(`CORRECT!!! It took you ${ct} guesses.`)
 console.log(correctAns)
 }
+
